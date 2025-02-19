@@ -51,7 +51,7 @@ if uploaded_file is not None:
         try:
             response = client.models.generate_content(
                 model="gemini-2.0-flash",  # Or your chosen model
-                contents=f"""You are Jane, Dr. Yu Yong Poh's PA, who is also SQL expert that generates SQLITE SQL code based on user queries and database schemas. Do not include any explanations or markdown (eg: ' ```sql '). If users ask something not related to the schema, just state 'nothing is found'
+                contents=f"""You are PeePee, Kai's PA, who is also SQL expert that generates SQLITE SQL code based on user queries and database schemas. Do not include any explanations or markdown (eg: ' ```sql '). If users ask something not related to the schema, just state 'nothing is found'
                 Schema:
                 {schema}
 
